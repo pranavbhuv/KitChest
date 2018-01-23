@@ -24,8 +24,6 @@ class Main extends PluginBase implements Listener{
             $damage = $event->getItem()->getDamage();
             switch($damage){
                 case 10:
-                    $item = $player->getInventory()->getItem("54");
-                    $item->setCustomName("Test kit");
                     $helmet = Item::get(310, 0, 1)->setCustomName("Test helmet");
                     $e = Enchantment::getEnchantment((int)0);
                     $helmet->addEnchantment(new EnchantmentInstance($e, (int)-0));
