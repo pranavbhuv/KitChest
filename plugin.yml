@@ -1,6 +1,6 @@
 name: KitChest
 version: 1.1
-main: KitChest\Loader
+main: KitChest\Main
 author: QuiverlyRivalry
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 description: Kit Chest Plugin!
