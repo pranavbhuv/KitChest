@@ -26,7 +26,7 @@ class KitChestGiveCommand extends PluginCommand{
             $sender->sendMessage(TextFormat::RED . "You do not have permission to use this command.");
         }
         if(!isset($args[0])){
-            $sender->sendMessage("Usage: /kit <kit name>");
+            $sender->sendMessage("Usage: /kitgive <kit name>");
             return false;
         }
         if($args[0] === "test"){
