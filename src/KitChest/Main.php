@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
 
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getCommandMap()->register("kit", new KitChestGiveCommand($this));
+        $this->getServer()->getCommandMap()->register("kitgive", new KitChestGiveCommand($this));
     }
 
     public function onInteract(PlayerInteractEvent $event){
