@@ -2,7 +2,7 @@ name: KitChest
 version: 1.2
 main: KitChest\Main
 author: QuiverlyRivalry
-api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+api: [3.0.0]
 description: Kit Chest Plugin!
 permissions:
  kit.give:
